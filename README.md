@@ -39,4 +39,5 @@ centos:
   yum install xorg-X11-server-Xvfb
 ```
 - run
+
 `xvfb-run --auto-servernum --server-args="-screen 0 1280x760x24"  python test.py`
