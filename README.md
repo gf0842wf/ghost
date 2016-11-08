@@ -23,7 +23,7 @@ centos:
 
 - use ghost
 
-`copy the ghost.py file to your project`
+copy the ghost.py file to your project
 
 # usage
 
