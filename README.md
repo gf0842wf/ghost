@@ -8,8 +8,8 @@ Webkit based scriptable web browser for python.
 
 # install
 
+- install pyside
 ```
-install pyside
 osx:
   brew install cartr/qt4/qt
   brew install pyside
@@ -19,10 +19,11 @@ ubuntu:
 centos:
   yum install qtwebkit qtwebkit-devel
   pip install pyside
-    
-use ghost:
-copy the ghost.py file to your project
-```
+```    
+
+- use ghost
+
+`copy the ghost.py file to your project`
 
 # usage
 
@@ -30,12 +31,12 @@ see test.py
 
 # if you want run in no x window server
 
+- install xvfb
 ```
-install xvfb
-  ubuntu: 
-    sudo apt-get install xvfb
-  centos: 
-    yum install xorg-X11-server-Xvfb
-run
-  xvfb-run --auto-servernum --server-args="-screen 0 1280x760x24"  python test.py
+ubuntu: 
+  sudo apt-get install xvfb
+centos: 
+  yum install xorg-X11-server-Xvfb
 ```
+- run
+`xvfb-run --auto-servernum --server-args="-screen 0 1280x760x24"  python test.py`
