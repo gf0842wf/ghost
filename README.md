@@ -3,9 +3,8 @@ Webkit based scriptable web browser for python.
 
 # requirements
 
-python2.7
-
-pyside
+- python2.7
+- pyside
 
 # install
 
