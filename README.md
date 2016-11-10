@@ -27,7 +27,7 @@ centos:
 
 # usage
 
-see test.py
+see [test.py](https://github.com/gf0842wf/ghost/blob/master/test.py)
 
 # if you want run in no x window server
 
