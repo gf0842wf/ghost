@@ -29,6 +29,8 @@ centos:
 
 see [test.py](https://github.com/gf0842wf/ghost/blob/master/test.py)
 
+cannot support some js. eg. `document.getElementsByTagName('a')[0].click()` but [cefjs](https://github.com/gf0842wf/cefjs) can
+
 # if you want run in no x window server
 
 - install xvfb
